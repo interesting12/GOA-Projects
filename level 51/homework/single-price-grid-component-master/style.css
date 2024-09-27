@@ -105,28 +105,3 @@ li{
     display: grid;
     grid-template-columns: repeat(3fr, 1);
 }
-
-@media(min-width: 657px){
-    .why-us, .subs{
-        width: 50%;
-    }
-}
-
-
-@media(max-width: 768px){
-    .card{
-        width: 90%;
-        margin-top: 40px;
-    }
-    .plan{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .community{
-        padding-right:20px ;
-    }
-    .why-us, .subs{
-        width: 100%;
-    }
-}
