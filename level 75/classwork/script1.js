@@ -34,3 +34,5 @@ form.addEventListener("submit", function(e) {
     // წამოღებულ სიაში ვამატებ ახალ შვილ ელემენტს რომელიც ძემოთ მოცემულ კოდში შევქმენი და შევცვალე
     ol.appendChild(li);
 })
+
+document.getelemen
