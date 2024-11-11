@@ -24,7 +24,7 @@ setInterval(() => {
 }, 3000);
 
 // 4) Program that changes the textContent of a paragraph on the website every 5 seconds
-const paragraph = document.getElementById('myParagraph'); // Ensure there's a paragraph with id="myParagraph" in your HTML
+const paragraph = document.getElementById('myParagraph'); 
 const messages = ["Hello, world!", "Welcome to the site!", "Enjoy your stay!", "JavaScript is fun!", "Stay tuned for more!"];
 let messageIndex = 0;
 setInterval(() => {
