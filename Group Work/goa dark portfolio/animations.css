@@ -1,0 +1,72 @@
+@keyframes slideInUp{
+    from{
+        transform: translateY(50px);
+
+    }
+    
+
+    to {
+        transform: translateX(0);
+    }
+    
+}
+@keyframes slideInDown{
+    from{
+        transform: translateY(-60px);
+
+    }
+    
+
+    to {
+        transform: translateX(0);
+}
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-60px);
+
+    }
+    
+
+    to {
+        transform: translateY(0);
+}
+}
+
+@keyframes slideInRight{
+    from{
+        transform: translateX(60px);
+
+    }
+    
+
+    to {
+        transform: translateY(0);
+}
+}
+
+.navbar{
+    animation: slideInDown 1s ease-in 0s 1 normal both;
+}
+
+.account{
+    animation: slideInDown 1s ease-in 0s 1 normal both;
+
+}
+
+.ps{
+    animation: slideInRight 1s ease-in 0s 1 normal both;
+}
+
+.avatar{
+    animation: slideInLeft 1s ease-in 0s 1 normal both;
+}
+
+.languages{
+    animation: slideInLeft 1s ease-in 0s 1 normal both;
+
+}
+
+.to{
+    animation: slideInUp 1s ease-in 0s 1 normal both;
+}
