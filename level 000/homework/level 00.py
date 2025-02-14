@@ -4,6 +4,9 @@ from turtle import*
 
 #step1: draw a square
 
+
+
+
 shape("turtle")
 width(7)
 color("green")
