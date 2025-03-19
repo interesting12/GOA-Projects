@@ -1,12 +1,13 @@
 import random
 
-leaders = ["Kote Ximshiashvili", "Davit Adeishvili", "Data Popxadze", "Gobron Witlauri", "Nata Kvantaliani", "Giorgi Shavadze"]
+leaders = ["Kote Ximshiashvili", "nata kvantali", "giorgi shvadze", "luka tatuashvili", "Nata Kvantaliani", "davit mefarishvili", "ilia dzindzibadze", " davit adesihvili"]
 
-students = [
-    'mate chikaidze', 'giga kochalidze', 'zuka qoridze',  'gio mindorashvili', 'rati chigogidze',
-    'ilia iremadze', 'davit mefarishvili', 'lasha giorgi azaladze', 'luka tatuashvili',
-    'nika macharashvili', 'ilia dzindzibadze'
-]
+students = ['ნიკოლოზ ჭიტაძე','გიო მინდორაშვილი',
+    'ზუკა ქორიძე', 'მათე ჭიკაძე', 'რატი ჩიგოგიძე',
+    'ბერდია ბექაური', 'საბა ისაკაძე', 'ლაშა გიორგი '
+    'აზალაძე', 'ნიკა მაჭარაშვილი', 'დათა ფოფხაძე',
+    'გობრონ წითლაური', 'გიგა კოჩალიძე']
+
 
 def distribution_in_groups(leaders, students):
     groups = []
@@ -19,7 +20,7 @@ def distribution_in_groups(leaders, students):
                     'leader': i,
                     'students': []
                 }
-                students_num = random.randint(1,2)
+                students_num = random.randint(1,3)
 
                 if students_num > len(students) - index:
                     students_num = len(students) - index
